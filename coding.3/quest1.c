@@ -29,5 +29,4 @@ Name: Concepta Njolima
 Question 1: The variable in the child process is 5
 Questions 2: When I edited the variable in the child, only the child's value changed. 
 The parent process's value remained 5. When I changed the parent's value,the child's value did not change too.
-The child process seems to be an exact copy of the parent process that is indepent of the parent though.   
-*/
+The child process seems to be an exact copy of the parent process that is indepedent of the parent though.   */
