@@ -11,12 +11,14 @@ FILE *fp=fopen("../Hello.txt","w");
 int rc=fork();
 if (rc<0){
 fprintf(stderr, "fork failed\n");
+exit(1);
 }
 else if (rc==0){
 printf("Child %d \n",file_descriptor);
 fprintf(fp,"Child try");
 }
 else{
+wait(NULL);
 printf("Parent %d \n",file_descriptor);
 fprintf(fp,"Parent try");
 close(file_descriptor);
