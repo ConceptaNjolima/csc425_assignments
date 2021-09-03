@@ -1,2 +1,0 @@
-Child try
-Parent try
