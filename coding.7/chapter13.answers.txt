@@ -7,10 +7,10 @@ Do these numbers much my intution? No, I did not know how much memory to expect.
 
 Question 4:
 - The total memory stayed the same. The used memory increased to 671 Megabytes.
-When I killed the memory-user program, the used memory decreased. 
+When I killed the memory-user program, the used memory decreased and the available space increased. 
 This matches my expectation since killing the program frees the memory that the program was using
 
-On running with large amounts of memory,the program runs once before I get a segmentation fault message
+While running the program with large amounts of memory,the total,used, free, and available memory values stayed the same. However, when I killed the process, the available memory value increased.
 
 
 Question6: How I got the process IDs to check with pmap
