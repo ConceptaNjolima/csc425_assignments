@@ -15,6 +15,7 @@ On running with large amounts of memory,the program runs once before I get a seg
 
 Question6: How I got the process IDs to check with pmap
 - I added a line inside my program that gets the process id using getpid()
+- For other programs, I copied their process Ids from the list when I run ps auxw
 
 Question 7:
 - With the -X flag, I see information on the device, size, anonymous, lazy free, swap, swap pss, mapping and other details about the process. I also see total memory values(in KB) under each memory category.
